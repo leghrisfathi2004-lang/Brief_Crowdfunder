@@ -17,7 +17,7 @@ API REST pour une plateforme de crowdfunding permettant aux propriétaires de cr
 ## Installation
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/leghrisfathi2004-lang/Brief_Crowdfunder.git
 cd Brief_Crowdfunder
 npm install
 ```
@@ -27,9 +27,7 @@ npm install
 Créer un fichier `.env` à la racine du projet :
 
 ```env
-PORT=1001
-mongoURL=mongodb://localhost:27017/crowdfunder
-jwt_code=votre_secret_jwt
+PORT, mongoURL, jwt_code
 ```
 
 | Variable   | Description                        |
